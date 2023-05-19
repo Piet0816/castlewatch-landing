@@ -13,8 +13,14 @@
 }
 
 .button img {
-    width: 150px;
+    width: 400px;
     height: auto;
     cursor: pointer;
 }
 
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
