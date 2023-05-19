@@ -18,6 +18,11 @@
     cursor: pointer;
 }
 
+.mail-button img {
+    width: 50px; 
+    height: auto;
+}
+
 body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
