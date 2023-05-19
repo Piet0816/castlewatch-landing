@@ -33,6 +33,22 @@
     height: 315px;
 }
 
+.game-description {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);  
+    color: #FFFFFF; 
+    border-radius: 10px;
+}
+
+.game-description p {
+    margin-bottom: 1em; 
+}
+
 body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
