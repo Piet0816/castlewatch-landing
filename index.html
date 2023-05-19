@@ -4,10 +4,27 @@
     <title>Castlewatch - Tower Defense</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap">
+	<script>
+    document.addEventListener('keydown', function (event) {
+        // Close lightbox when ESC key is pressed
+        if (event.key === 'Escape' || event.keyCode === 27) {
+            lightbox.close();
+        }
+
+        // Navigate through images with arrow keys
+        if (event.key === 'ArrowLeft' || event.keyCode === 37) {
+            lightbox.prev();
+        }
+        if (event.key === 'ArrowRight' || event.keyCode === 39) {
+            lightbox.next();
+        }
+    });
+</script>
 </head>
 <body>
     <div class="container">
-        <img src="title.png" alt="Title Image">
+		<img id="title-image" src="title.png" alt="Title Image">
         <div class="button-container">
             <a href="https://play.google.com/store/apps/details?id=com.pseidl.castlewatch" class="button">
                 <img src="googleplay.png" alt="Google Play">
@@ -20,51 +37,51 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/SoT2unkA39w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 		<div class="game-description">
-			<p>-More than 80 levels in a variety of environments, including desert, water, snow, and lava</p>
-			<p>-Over 50 unique towers for strategic considerations and optimal defense concepts</p>
-			<p>-No predefined paths; the player directs monsters by building towers strategically</p>
-			<p>-A rich selection of over 40 enemies that walk, fly and/or swim. Some possess unique abilities, such as druids that transform into animals, or necromancers who summon skeletons</p>
-			<p>-Endless wave mode and competitive ranking system</p>
-			<p>-Tutorial and advanced level unlock system to ease beginners into the game</p>
-			<p>-Unlockable and customizable profile pictures for display on leaderboards</p>
-			<p>-Environmental factors and enemy strengths/weaknesses that influence gameplay and strategy</p>
-			<p>-Active post-release support, including bug fixes and potentially free content updates after release</p>
+			<p>More than 80 levels in a variety of environments, including desert, water, snow, and lava</p>
+			<p>Over 50 unique towers for strategic considerations and optimal defense concepts</p>
+			<p>No predefined paths; the player directs monsters by building towers strategically</p>
+			<p>A rich selection of over 40 enemies that walk, fly and/or swim. Some possess unique abilities, such as druids that transform into animals, or necromancers who summon skeletons</p>
+			<p>Endless wave mode and competitive ranking system</p>
+			<p>Tutorial and advanced level unlock system to ease beginners into the game</p>
+			<p>Unlockable and customizable profile pictures for display on leaderboards</p>
+			<p>Environmental factors and enemy strengths/weaknesses that influence gameplay and strategy</p>
+			<p>Active post-release support, including bug fixes and potentially free content updates after release</p>
 		</div>
 		<div class="gallery">
-			<a href="screenshots/gameplay closeup.jpg" data-lightbox="gallery" data-title="Screenshot 1">
+			<a href="screenshots/gameplay closeup.jpg" data-lightbox="gallery" data-title="gameplay closeup">
 				<img src="screenshots/tn_gameplay closeup.jpg" alt="Screenshot 1">
 			</a>
-			<a href="screenshots/gameplay dark.png" data-lightbox="gallery" data-title="Screenshot 2">
+			<a href="screenshots/gameplay dark.jpg" data-lightbox="gallery" data-title="gameplay dark">
 				<img src="screenshots/tn_gameplay dark.png" alt="Screenshot 2">
 			</a>
-			<a href="screenshots/gameplay desert.jpg" data-lightbox="gallery" data-title="Screenshot 3">
+			<a href="screenshots/gameplay desert.jpg" data-lightbox="gallery" data-title="gameplay desert">
 				<img src="screenshots/tn_gameplay desert.jpg" alt="Screenshot 3">
 			</a>
-			<a href="screenshots/gameplay grassland.png" data-lightbox="gallery" data-title="Screenshot 4">
+			<a href="screenshots/gameplay grassland.jpg" data-lightbox="gallery" data-title="gameplay grassland">
 				<img src="screenshots/tn_gameplay grassland.png" alt="Screenshot 4">
 			</a>
-			<a href="screenshots/gameplay icebeam.jpg" data-lightbox="gallery" data-title="Screenshot 5">
+			<a href="screenshots/gameplay icebeam.jpg" data-lightbox="gallery" data-title="gameplay icebeam">
 				<img src="screenshots/tn_gameplay icebeam.jpg" alt="Screenshot 5">
 			</a>
-			<a href="screenshots/gameplay maze.png" data-lightbox="gallery" data-title="Screenshot 6">
+			<a href="screenshots/gameplay maze.jpg" data-lightbox="gallery" data-title="gameplay maze">
 				<img src="screenshots/tn_gameplay maze.png" alt="Screenshot 6">
 			</a>
-			<a href="screenshots/gameplay necromancer.png" data-lightbox="gallery" data-title="Screenshot 7">
+			<a href="screenshots/gameplay necromancer.jpg" data-lightbox="gallery" data-title="gameplay necromancer">
 				<img src="screenshots/tn_gameplay necromancer.png" alt="Screenshot 7">
 			</a>
-			<a href="screenshots/gameplay volcano.jpg" data-lightbox="gallery" data-title="Screenshot 8">
+			<a href="screenshots/gameplay volcano.jpg" data-lightbox="gallery" data-title="gameplay volcano">
 				<img src="screenshots/tn_gameplay volcano.jpg" alt="Screenshot 8">
 			</a>
-			<a href="screenshots/levels.png" data-lightbox="gallery" data-title="Screenshot 9">
+			<a href="screenshots/levels.png" data-lightbox="gallery" data-title="levels">
 				<img src="screenshots/tn_levels.png" alt="Screenshot 9">
 			</a>
-			<a href="screenshots/towers.jpg" data-lightbox="gallery" data-title="Screenshot 10">
+			<a href="screenshots/towers.jpg" data-lightbox="gallery" data-title="towers">
 				<img src="screenshots/tn_towers.jpg" alt="Screenshot 10">
 			</a>
-			<a href="screenshots/workshop.png" data-lightbox="gallery" data-title="Screenshot 11">
+			<a href="screenshots/workshop.jpg" data-lightbox="gallery" data-title="workshop">
 				<img src="screenshots/tn_workshop.png" alt="Screenshot 11">
 			</a>
-			<a href="screenshots/worlds.png" data-lightbox="gallery" data-title="Screenshot 12">
+			<a href="screenshots/worlds.jpg" data-lightbox="gallery" data-title="worlds">
 				<img src="screenshots/tn_worlds.png" alt="Screenshot 12">
 			</a>
 		</div>
@@ -74,6 +91,7 @@
             </a>
         </div>
     </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
 

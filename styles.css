@@ -3,6 +3,10 @@
     padding: 50px;
 }
 
+#title-image {
+    border: 10px solid rgba(0, 0, 0, 0.5);
+}
+
 .button-container {
     margin-top: 50px;
 }
@@ -34,13 +38,14 @@
 }
 
 .game-description {
+    font-family: 'Reem Kufi Fun', sans-serif;
     text-align: center;
     font-size: 1.5em;
     line-height: 1.6;
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6);  
+    background-color: rgba(0, 0, 0, 0.75);  
     color: #FFFFFF; 
     border-radius: 10px;
 }
