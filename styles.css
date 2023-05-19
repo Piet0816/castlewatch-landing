@@ -1,0 +1,19 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+}
+
+.button img {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
