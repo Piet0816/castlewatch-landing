@@ -23,6 +23,16 @@
     height: auto;
 }
 
+.video-container {
+    max-width: 560px;
+    margin: 50px auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+}
+
 body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
