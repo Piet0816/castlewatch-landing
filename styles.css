@@ -4,7 +4,8 @@
 }
 
 #title-image {
-    border: 10px solid rgba(0, 0, 0, 0.5);
+	border: 10px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);  
 }
 
 .button-container {
@@ -17,13 +18,13 @@
 }
 
 .button img {
-    width: 400px;
+    width: 350px;
     height: auto;
     cursor: pointer;
 }
 
 .mail-button img {
-    width: 50px; 
+    width: 80px; 
     height: auto;
 }
 
